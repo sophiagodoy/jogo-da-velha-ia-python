@@ -36,17 +36,7 @@ A IA:
 git clone https://github.com/seu-usuario/tic-tac-toe-minimax-python.git
 ```
 
-### 2. Acesse a pasta
-
-```bash
-cd tic-tac-toe-minimax-python
-```
-
 ### 3. Execute o programa
-
-```bash
-python main.py
-```
 
 ---
 
@@ -89,18 +79,6 @@ tic-tac-toe-minimax-python
 ├── main.py
 └── README.md
 ```
-
----
-
-## 📈 Possíveis melhorias futuras
-
-* Interface gráfica (Tkinter ou Pygame)
-* Modo jogador vs jogador
-* Interface web (Flask)
-* Ranking de partidas
-* Melhor visual do tabuleiro
-
----
 
 ## 👨‍💻 Autores
 
