@@ -1,30 +1,44 @@
 # Tic Tac Toe com IA (Minimax) em Python 🤖
 
-Este projeto é uma implementação do clássico **Jogo da Velha** utilizando **Inteligência Artificial** com o algoritmo **Minimax**.
+Este projeto é uma implementação do clássico **Jogo da Velha (Tic Tac Toe)** utilizando **Inteligência Artificial** com o algoritmo **Minimax**.
 
-A IA sempre toma a melhor decisão possível, tornando o jogo impossível de vencer se ela jogar corretamente.
+A IA analisa todas as jogadas possíveis antes de decidir onde jogar, garantindo sempre a melhor escolha.  
+Se o algoritmo for executado corretamente, a IA **nunca perde**, podendo apenas empatar.
+
+O jogo funciona diretamente no **terminal** e permite que o usuário jogue contra o computador.
 
 ---
 
 ## 📌 Funcionalidades
 
-* Jogador vs Inteligência Artificial
-* IA utiliza algoritmo Minimax
-* Escolha do símbolo (X ou O)
-* Sistema de verificação de vitória e empate
-* Interface simples no terminal
-* IA toma decisões ótimas
+- Jogador vs Inteligência Artificial
+- IA utiliza algoritmo **Minimax**
+- Usuário escolhe o símbolo (X ou O)
+- Sorteio automático de quem começa
+- Verificação automática de vitória
+- Verificação de empate
+- Interface simples no terminal
+- Validação de jogadas inválidas
+- IA toma decisões ótimas
 
 ---
 
 ## 🧠 Algoritmo utilizado
 
-O projeto utiliza o algoritmo **Minimax**, muito usado em jogos de estratégia para escolher a melhor jogada possível considerando todas as possibilidades futuras.
+O projeto utiliza o algoritmo **Minimax**, muito usado em jogos de estratégia para encontrar a melhor jogada possível considerando todos os cenários futuros.
 
-A IA:
+O algoritmo funciona simulando todas as possibilidades de jogadas até o final da partida.
 
-* tenta maximizar suas chances de vitória
-* tenta minimizar as chances do jogador vencer
+A IA sempre busca:
+
+- Maximizar suas chances de vitória
+- Minimizar as chances do jogador vencer
+
+Pontuação utilizada pelo algoritmo:
+
+- **+10** → IA vence
+- **-10** → Jogador vence
+- **0** → Empate
 
 ---
 
@@ -76,8 +90,9 @@ Escolha uma posição (0-8): 4
 ```
 tic-tac-toe-minimax-python
 │
-├── main.py
-└── README.md
+├── README.md
+├── Tic Tac Toe Documentation.pdf
+└── main.py
 ```
 
 ## 👨‍💻 Autores
