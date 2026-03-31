@@ -47,7 +47,7 @@ Pontuação utilizada pelo algoritmo:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/tic-tac-toe-minimax-python.git
+git@github.com:sophiagodoy/tic-tac-toe-in-python.git
 ```
 
 ### 3. Execute o programa
