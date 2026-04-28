@@ -50,7 +50,7 @@ Pontuação utilizada pelo algoritmo:
 git@github.com:sophiagodoy/tic-tac-toe-in-python.git
 ```
 
-### 3. Execute o programa
+### 2. Execute o programa
 
 ---
 
